@@ -5,10 +5,12 @@ import NavItems from "./NavItems";
 import { buttonVariants } from "./ui/button";
 import MobileNav from "./MobileNav";
 import Cart from "./Cart";
-
-const user = true;
+import { getServerSideUser } from "@/lib/payload-utils";
+import { cookies } from "next/headers";
 
 const Navbar = async () => {
+  const nextCookies = cookies();
+  const user = await getServerSideUser(nextCookies);
   return (
     <div className="bg-white sticky z-50 top-0 inset-x-0 h-16">
       <header className="relative bg-white">
