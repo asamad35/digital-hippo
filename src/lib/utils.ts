@@ -59,7 +59,7 @@ export function constructMetadata({
       creator: 'Abdus Samad',
     },
     icons,
-    metadataBase: new URL('https://digital-hippo-production-94a1.up.railway.app'),
+    metadataBase: new URL('https://digital-hippo-ecom.up.railway.app'),
     ...(noIndex && {
       robots: {
         index: false,
