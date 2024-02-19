@@ -9,6 +9,11 @@ const nextConfig = {
                 pathname: '/**',
             },
             {
+                protocol: 'https',
+                hostname: 'digital-hippo.netlify.app',
+                pathname: '/**',
+            },
+            {
                 protocol: 'http',
                 hostname: 'localhost',
                 port: '3000',
