@@ -6,7 +6,6 @@ const nextConfig = {
             {
                 protocol: 'https',
                 hostname: 'digital-hippo-ecom.up.railway.app',
-                port: '',
                 pathname: '/**',
             },
             {
