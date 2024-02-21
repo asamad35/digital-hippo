@@ -10,6 +10,11 @@ const nextConfig = {
             },
             {
                 protocol: 'https',
+                hostname: 'digital-hippo-2375.onrender.com',
+                pathname: '/**',
+            },
+            {
+                protocol: 'https',
                 hostname: 'digital-hippo.netlify.app',
                 pathname: '/**',
             },
