@@ -11,7 +11,7 @@ const Providers = ({ children }: PropsWithChildren) => {
     trpc.createClient({
       links: [
         httpBatchLink({
-          url: `${process.env.SERVER_URL}/api/trpc`,
+          url: `https://digital-hippo-2375.onrender.com/api/trpc`,
           fetch(url, options) {
             return fetch(url, {
               ...options,
